@@ -1,0 +1,55 @@
+@-webkit-keyframes ripple_out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+@keyframes ripple_out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+.ripple_out,.ripple_out_2{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.ripple_out:before,.ripple_out_2:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.ripple_out:before{border: #ffcc29 solid 3px;}
+.ripple_out_2:before{border: #fff solid 3px;}
+
+.ripple_out:before, .ripple_out:focus:before, .ripple_out:active:before {
+  -webkit-animation-name: ripple_out;
+  animation-iteration-count: infinite;
+  animation-name: ripple_out;
+}
+
+.ripple_out_2:before, .ripple_out_2:focus:before, .ripple_out_2:active:before {
+  -webkit-animation-name: ripple_out;
+  animation-iteration-count: infinite;
+  animation-name: ripple_out;
+}

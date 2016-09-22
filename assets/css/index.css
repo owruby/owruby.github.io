@@ -1,0 +1,163 @@
+#nav .key_vis{width: 100%; height: 500px; background-repeat:no-repeat; background-position: center center;}
+#nav .key_vis.about{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/key_vis_about.jpg); background-size: cover;}
+#nav .key_vis.how{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/key_vis_how.jpg); background-size: cover;}
+#nav .key_vis.list{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/key_vis_list.jpg); background-size: cover;}
+#nav .key_vis.contact{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/key_vis_contact.jpg); background-size: cover;}
+#nav h1{position: absolute; left: calc(50% - 305px); top: 183.5px; z-index: 100;}
+#nav ul{width: 100%; position: relative;}
+#nav li{width: 300px;}
+#nav li.edge{width: calc(50% - 300px);}
+#nav .nav{width: 300px; height: 120px; position: relative; cursor: pointer;}
+#nav .nav .bar{position: absolute; left: 0px; top: 0px;} 
+#nav .nav .nav_title{border-left: 1px solid #eee; box-sizing:border-box; width: 100%; height: 120px; background-repeat:no-repeat; background-position: center center;}
+#nav .nav .nav_title:last-child{border-right: 1px solid #eee; box-sizing:border-box;}
+#nav .nav .nav_title.about{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/nav_about.svg); background-size: contain;}
+#nav .nav .nav_title.how{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/nav_how.svg); background-size: contain;}
+#nav .nav .nav_title.list{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/nav_list.svg); background-size: contain;}
+#nav .nav .nav_title.contact{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/nav_contact.svg); background-size: contain;}
+#nav .nav .edge{border-right:1px solid #eee;}
+#nav .nav .entitle{width: 100%; height: 24px; background-repeat:no-repeat; background-position: center center;}
+#nav .nav .entitle.step1{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/whatisbridge.svg); background-size: contain;}
+#nav .nav .entitle.step2{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/howitworks.svg); background-size: contain;}
+#nav .nav .entitle.step3{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/programlists.svg); background-size: contain;}
+#nav .nav .entitle.step4{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/contactus.svg); background-size: contain;}
+
+#about .logo_l{width: 180px; height: 180px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/logo_l.svg) no-repeat center center; margin: 0 auto; background-size: contain;}
+#about .title{margin-top: 50px;}
+#about .features{margin-top: 50px; position: relative;}
+#about .features .mark{padding: 20px 0; width: 100%; height: 30px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/mark.svg) no-repeat center center; background-size: auto; background-size: 30px 30px; background-position: calc(50% + 108px) 0px;}
+#about .features ul{width: 940px; margin: 0 auto;}
+#about .features li{width: 300px; height: 250px; margin-right: 20px; opacity: 0;}
+#about .features li:last-child{margin-right: 0px;}
+#about .features .bar{width: 100px; height: 5px; margin: 0 auto;}
+#about .features h3{padding: 25px 0;}
+#about .features p{padding: 0px 20px;}
+#about .features .notice{font-size: 12px;}
+#about .box{left: calc(50% + 140px); top: -40px;}
+
+#how .box{left: calc(50% + 150px); top: -40px;}
+#how li{width: 230px;}
+#how li.arrow{width: 40px;}
+#how .steps{width: 100%;}
+#how .steps .fsl{font-size: 30px;}
+#how .num{width: 40px; height: 60px; padding-right: 10px; background-repeat:no-repeat; background-position: center center;}
+#how .num.step1{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step1_num.svg); background-size: contain;}
+#how .num.step2{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step2_num.svg); background-size: contain;}
+#how .num.step3{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step3_num.svg); background-size: contain;}
+#how .num.step4{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step4_num.svg); background-size: contain;}
+#how .en{width: 180px; height: 36px; background-repeat:no-repeat; background-position: center center;}
+#how .en.step1{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/register.svg); background-size: contain;}
+#how .en.step2{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/search.svg); background-size: contain;}
+#how .en.step3{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/refferal.svg); background-size: contain;}
+#how .en.step4{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/rewards.svg); background-size: contain;}
+#how .step{width: 230px; height: 230px; background-repeat:no-repeat; background-position: center center; margin-top: 10px; opacity: 0;}
+#how .step.step1{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step1.png); background-size: contain;}
+#how .step.step2{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step2.png); background-size: contain;}
+#how .step.step3{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step3.png); background-size: contain;}
+#how .step.step4{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/step4.png); background-size: contain;}
+#how .arrow{width: 40px; height: 230px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/arrow.png) no-repeat center center; background-size: contain; margin: 0 10px; margin-top: 70px;}
+#how .mobile_slide{display: none;}
+#how .mobile_slide .slide_box{width: 100%; height: 300px; overflow: hidden; margin: 0 auto; margin-top: 30px; }
+#how .mobile_slide .sld{height:300px; position: relative;}
+.swiper-button-next{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/next.svg); width: 17px; height: 30px; margin-top: 0px; background-size: 17px 30px; right: 30px;}
+.swiper-button-prev{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/prev.svg); width: 17px; height: 30px; margin-top: 0px; background-size: 17px 30px; left: 30px;}
+
+#list .box{left: calc(50% + 130px); top: -40px;}
+#list .boxs li{width: 540px; height: 270px; margin-right: 20px; margin-bottom: 20px;}
+#list .boxs li:nth-child(2n){margin-right: 0px;}
+#list .boxs li .visual{width: 270px; height: 270px; background-repeat:no-repeat; background-position: center center;}
+#list .boxs li .visual.rental{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/list_rental.jpg); background-size: contain;}
+#list .boxs li .visual.mobile{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/list_mobile.jpg); background-size: contain;}
+#list .boxs li .visual.solar{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/list_solar.jpg); background-size: contain;}
+#list .boxs li .visual.school{background-image: url(file:///Users/huangyinghan/bridge/assets/img/index/list_school.jpg); background-size: contain;}
+#list .boxs li .txt{width: 270px; height: 270px; position: relative;}
+#list .boxs li .txt .bars{width: 100px; height: 40px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/bars.png) no-repeat center center; background-size: contain; margin: 0 auto;}
+#list .boxs li .txt h1{padding: 20px 0;}
+#list .boxs li .txt p{padding: 0 20px;}
+
+#list .boxs li .txt .more{position: absolute; bottom: 20px; right: 20px; color: #7f6957; cursor: pointer;}
+#list .boxs li .txt .more p{color: #7f6957; height: 30px; padding: 8px 10px; box-sizing: border-box;}
+#list .boxs li .txt .btn{width: 30px; height: 30px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/more.svg) no-repeat center center; background-size: contain; cursor: pointer;}
+
+#contact .box{left: calc(50% + 95px); top: -40px;}
+#contact ul{width: 430px; margin: 0 auto;}
+#contact ul li{margin-bottom: 20px;}
+::-webkit-input-placeholder {color: #281e18;} /* WebKit, Blink, Edge */
+:-moz-placeholder {color: #281e18; opacity:  1;} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {color: #281e18; opacity:  1;}/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color: #281e18;}/* Internet Explorer 10-11 */
+#contact input[type="text"]{width: 100%; height: 50px; padding: 0 20px; box-sizing: border-box;}
+#contact textarea{width: 100%; height: 240px; padding: 20px; box-sizing: border-box;}
+#contact input[type="submit"]{width: 100%; height: 50px; cursor: pointer;}
+
+
+/*------------------------------------------------------------------------------------------------------------------------
+	
+														Mobile Device
+	
+------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 480px){
+	
+	#nav{margin-top: 70px;}
+	#nav li{width: 50%; height:180px;}
+	#nav li.edge{width: 50%;}
+	#nav .nav{display: none;}
+	#nav h1{left: calc(50% - 195px); top: 130px;}
+
+	#about .logo_l{width: 150px; height: 150px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/logo_l.svg) no-repeat center center; margin: 0 auto; background-size: contain;}
+	#about .title{margin-top: 50px;}
+	#about .features{margin-top: 50px; position: relative;}
+	#about .features .mark{padding: 13px 0; width: 100%; height: 25px; background: url(file:///Users/huangyinghan/bridge/assets/img/index/mark.svg) no-repeat center center; background-size: auto; background-size: 25px 25px; background-position: calc(50% + 90px) 0px;}
+	#about .features .bar{width: 200px;}
+	#about .features ul{width: 100%;}
+	#about .features li{width: 100%; height: 200px; margin-right: 0px; margin-bottom: 30px; opacity: 0;}
+	#about .box{left: auto; right: 0; top: -50px;}
+	
+	#how .box{left: auto; right: 0; top: -50px;}
+	#how ul{display: none;}
+	#how .step{opacity: 1; margin: 0 auto;}
+	#how .steps{width: 230px; margin: 0 auto;}
+	#how .mobile_slide{display: block;}
+	
+	#list .box{left: auto; right: 0; top: -50px;}
+	#list .fsxs{font-size: 18px;}
+	#list .boxs li{width: 100%; height: auto; margin-right: 0px; margin-bottom: 30px;}
+	#list .boxs li .visual{width: 100%;}
+	#list .boxs li .visual.rental{background-size: cover;}
+	#list .boxs li .visual.mobile{background-size: cover; }
+	#list .boxs li .visual.solar{background-size: cover;}
+	#list .boxs li .visual.school{background-size: cover;}
+	#list .boxs li .txt{width: 100%; height: 230px}
+	#list .boxs li .txt .bars{width: 200px; background-repeat: repeat;}
+	
+	#contact .box{left: auto; right: 0; top: -50px;}
+	#contact ul{width: 100%; margin: 0 auto;}
+	#contact ul li{margin-bottom: 20px;}
+	::-webkit-input-placeholder {color: #281e18;} /* WebKit, Blink, Edge */
+	:-moz-placeholder {color: #281e18; opacity:  1;} /* Mozilla Firefox 4 to 18 */
+	::-moz-placeholder {color: #281e18; opacity:  1;}/* Mozilla Firefox 19+ */
+	:-ms-input-placeholder {color: #281e18;}/* Internet Explorer 10-11 */
+	#contact input[type="text"]{width: 100%; height: 50px; padding: 0 20px; box-sizing: border-box;}
+	#contact textarea{width: 100%; height: 240px; padding: 20px; box-sizing: border-box;}
+	#contact input[type="submit"]{width: 100%; height: 50px; cursor: pointer;}
+	
+}
+
+@media only screen and (max-width: 320px){
+	#newsarea li.newarticles .photo{display: none;}
+	#newsarea li.newarticles .txt{width: 100%; padding-left: 0px; }
+
+	#slides .slide_box{height: 780px;}
+	#slides .sld{height:780px; }
+	#slides .sld.slide1{height: 780px;}
+	#slides .sld.slide2{height: 780px;}
+	#slides .sld.slide3{height: 780px;}
+	
+	#facebook ul{width: 100%; margin: 0px auto;}
+
+	#link .bg{height: 600px;}
+	#link h1{font-size: 18px;}
+	#link p{margin:20px 0; font-size: 14px; line-height: 26px}
+
+	#link .btn{font-size: 14px;}
+}
